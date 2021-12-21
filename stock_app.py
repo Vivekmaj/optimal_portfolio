@@ -135,7 +135,7 @@ def main():
     with st.expander('Download CSV'):
         make_downloadable(df_selected_sector)
 
-    st.header('Optimal Portfolio Allocation')
+    st.header('Optimal Portfolio Allocation (For Educational Purposes Only)')
 
     st.markdown(""" The algorithm uses a monte carlo simulation approach and tests 10,000 different allocations. 
     Choose a set of sectors and ticker symbols of interest and wait to view the optimal allocation results below.""")
